@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/example',
+mongoose.connect('mongodb+srv://admin:azerbaijan@cluster0.ewrjb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 { useUnifiedTopology: true });
 const Schema = mongoose.Schema;
 
